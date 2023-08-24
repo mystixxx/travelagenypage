@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/travelagenypage/static/css/main.b7513151.css",
+    "main.js": "/travelagenypage/static/js/main.3fd6fb74.js",
+    "static/media/portret.png": "/travelagenypage/static/media/portret.afde1217e7d25afb97bc.png",
+    "static/media/avioni.svg": "/travelagenypage/static/media/avioni.ce1ad7a4c05b2a77e03138e257fb4f55.svg",
+    "static/media/star.png": "/travelagenypage/static/media/star.618d11e122cbca3f8e9e.png",
+    "static/media/signup.svg": "/travelagenypage/static/media/signup.71869bbc4fa7043926508bc029352308.svg",
+    "static/media/money.svg": "/travelagenypage/static/media/money.1e5b5d78f48f80e8ae0c49afde6766e8.svg",
+    "static/media/map.svg": "/travelagenypage/static/media/map.c21ba4a547fcd73bc2e57b5fa969520c.svg",
+    "static/media/slick.svg": "/travelagenypage/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/travelagenypage/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/travelagenypage/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/travelagenypage/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/travelagenypage/index.html",
+    "static/media/strokeLine2.svg": "/travelagenypage/static/media/strokeLine2.841c98a1a2c9743820e5dcf24726b70e.svg",
+    "static/media/strokeLine1.svg": "/travelagenypage/static/media/strokeLine1.6b595b1a5ef15a5e0e9a6a5c394d7e68.svg",
+    "main.b7513151.css.map": "/travelagenypage/static/css/main.b7513151.css.map",
+    "main.3fd6fb74.js.map": "/travelagenypage/static/js/main.3fd6fb74.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7513151.css",
+    "static/js/main.3fd6fb74.js"
+  ]
+}
