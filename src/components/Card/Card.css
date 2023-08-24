@@ -1,0 +1,150 @@
+@import url("../../index.css");
+  
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(102, 102, 102, 0.08);
+    border-radius: 8px;
+    margin: 40px;
+    max-width: 80%;
+    transition: .5s ease;
+}
+
+.card:hover {
+    box-shadow: 0px 8px 40px 0px rgba(254, 147, 94, 0.20);
+}
+
+.card:hover .image-container-deals img{
+    filter: blur(3px);
+}
+
+.card:hover .bookNow{
+    visibility: visible;
+    opacity: 1;
+}
+
+.bookNow {
+    position: absolute;
+    display: flex;
+    visibility: hidden;
+    justify-content: center;
+    align-items: center;
+    bottom: 35%;
+    left: 46.5%;
+    transform: translate(-50%, -50%);
+    background-color: var(--primaryColorOrange);
+    border-radius: 8px;
+    padding: 13px 10px;
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.image-container-deals {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+
+.image-container-deals img {
+    width: 100%;
+    height: 16em;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    background-repeat: no-repeat;
+    transition: .5s ease;
+}
+
+.bookNowBtn {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: var(--p2Size);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.r1-details, .r2-details {
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+.r1-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.r1-details h2 {
+    color: var(--textColorMain);
+    font-size: var(--TitleSize);
+}
+
+.review {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.review p {
+    color: var(--textColorThird);
+    font-size: var(--ContentSize);
+    font-weight: 400;
+}
+
+.review img {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+}
+
+.r2-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.location p {
+    color: var(--textColorThird);
+    font-size: var(--ContentSize);
+    font-weight: 400;
+}
+
+.prices {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.prices .discount {
+    color: var(--iconColorMain);
+    font-size: var(--ContentSize);
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.prices .realprice {
+    padding: 0px 10px;
+    background: #FFE7DB;
+    border-radius: 8px;
+    color: var(--primaryColorOrange);
+    font-size: var(--ParagraphSize);
+    font-weight: 600;
+}
+
+@media screen and (max-width: 400px) {
+    .location p {
+        font-size: 14px;
+    }
+    
+    .prices .discount {
+        font-size: 14px;
+    }
+}

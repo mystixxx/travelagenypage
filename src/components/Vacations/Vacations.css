@@ -1,0 +1,58 @@
+@import url("../../index.css");
+
+.vacations {
+    text-align: center;
+    background: #FEFCFB;
+}
+
+.vacations h1 {
+    font-family: 54px;
+    font-size: var(--h2Size);
+    padding-top: 5%;
+}
+
+.vacations .vacationText {
+    color: var(--primaryColorOrange);
+}
+
+.vacations .textp {
+    margin-top: 1%;
+    color: var(--textColorThird);
+    font-size: var(--p2Size);
+}
+
+.cityVacations {
+    margin-top: 3%;
+}
+
+.slick-track {
+    display: flex;
+}
+
+.slick-slider {
+    display: flex;
+    align-items: center;
+    max-width: 65%;
+    margin: 0 auto;
+}
+
+.slick-slide {
+    padding-right: 10px;
+}
+
+.slick-slide:last-child {
+    padding-right: 0;
+}
+
+.slick-prev::before,
+.slick-next::before
+{
+    font-size: 25px;
+    color: #999999;
+    transition: .5s ease;
+}
+
+.product-actions {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,110 @@
+@import url("../../index.css");
+
+.thingsToDo {
+    width: 100%;
+    background: var(--backgroundWhiteGray);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.thingsToDo h1 {
+    font-size: var(--h2Size);
+    font-family: var(--textFontVolkhov);
+    text-align: center;
+    margin-top: 5%;
+}
+
+.thingsToDo p {
+    font-size: var(--p2Size);
+    color: var(--textColorThird);
+    text-align: center;
+}
+
+.todoText {
+    color: var(--primaryColorOrange);
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    padding: 30px;
+    gap: 1.5rem;
+}
+
+.thingsBox {
+    width: 20%;
+    background: #fff;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    padding: 0px 25px;
+    box-shadow: 14px 24px 72px 0px rgba(102, 102, 102, 0.10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; 
+}
+.box-icon {
+    padding: 30px 20px;
+    text-align: start;
+}
+
+.box-body {
+    text-align: start;
+}
+
+.box-icon, .box-body {
+    z-index: 2;
+}
+
+.box-body h2 {
+    padding: 0px 20px;
+    color: var(--textColorMain);
+    font-size: var(--TitleSize);
+    font-weight: 600;
+    line-height: 34px;
+}
+
+.box-body p {
+    padding: 21px 20px;
+    color: var(--textColorThird);
+    font-size: var(--ContentSize);
+    line-height: 26px;
+    text-align: start;
+}
+
+.line {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1; 
+}
+
+@media (max-width: 1090px) {
+    .thingsBox {
+      width: 30%; 
+    }
+
+}
+
+@media (max-width: 610px) {
+    .thingsBox {
+      width: 65%;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .thingsBox {
+      width: 100%;
+    }
+}
+
+@media (min-width: 1080px) {
+    .line {
+      width: 99%;
+    }
+}

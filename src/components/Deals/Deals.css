@@ -1,0 +1,58 @@
+@import url("../../index.css");
+
+.deals {
+    text-align: center;
+    background: #FEFCFB;
+}
+
+.deals h1 {
+    font-family: var(--textFontVolkhov);
+    font-size: var(--h2Size);
+    padding-top: 5%;
+}
+
+.deals .text {
+    color: var(--primaryColorOrange);
+}
+
+.deals .testp {
+    margin-top: 1%;
+    color: var(--textColorThird);
+    font-size: var(--p2Size);
+}
+
+.cityDeals {
+    margin-top: 3%;
+}
+
+.slick-track {
+    display: flex;
+}
+
+.slick-slider {
+    display: flex;
+    align-items: center;
+    max-width: 65%;
+    margin: 0 auto;
+}
+
+.slick-slide {
+    padding-right: 10px;
+}
+
+.slick-slide:last-child {
+    padding-right: 0;
+}
+
+.slick-prev::before,
+.slick-next::before
+{
+    font-size: 25px;
+    color: #999999;
+    transition: .5s ease;
+}
+
+.product-actions {
+    display: flex;
+    justify-content: space-between;
+}

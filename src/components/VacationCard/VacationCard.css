@@ -1,0 +1,97 @@
+@import url("../../index.css");
+
+.vacation-card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(102, 102, 102, 0.08);
+    border-radius: 16px;
+    margin: 40px;
+    max-width: 100%;
+    transition: .5s ease;
+}
+
+.vacation-card:hover {
+    box-shadow: 0px 8px 40px 0px rgba(254, 147, 94, 0.20);
+}
+
+.image-container-vacation {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+
+.image-container-vacation img {
+    width: 100%;
+    height: 16em;
+    object-fit: cover;
+    border-radius: 16px;
+    margin-bottom: 1rem;
+    background-repeat: no-repeat;
+    transition: .5s ease;
+}
+
+.r1-details-vacation, .r2-details-vacation {
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-wrap: wrap;
+}
+
+.r1-details-vacation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location-vacation h4 {
+    color: var(--textColorMain);
+    font-size: var(--TitleSize);
+} 
+
+.location-vacation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.vacation-price {
+    color: var(--primaryColorOrange);
+    font-size: var(--TitleSize);
+}
+
+.r2-details-vacation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vacation-length, .review-vacation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.vacation-length p,  .review-vacation p{
+    color: var(--textColorThird);
+    font-size: var(--ContentSize);
+}
+
+.review-vacation img {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+}
+
+.r2-details-vacation {
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 400px) {
+    .location-vacation h4 {
+        font-size: 18px;
+    }
+    
+}

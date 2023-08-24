@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Volkhov&display=swap');
+
+:root {
+    --primaryColorOrange: #FA7436;
+    --primaryColorBlack: #222222;
+    --secondaryColorBlue: #4086F4;
+    --seondaryColorYellow: #FFB60A;
+    --textColorMain: #222222;
+    --textColorSecondary: #444444;
+    --textColorThird: #666666;
+    --iconColorMain: #999999;
+    --iconColorSecondary: #E5E5E5;
+    --iconColorOrange: #FA7436;
+    --buttonColor: #FA7436;
+    --backgroundOrange: #FA7436;
+    --backgroundWhite: #FEFCFB;
+    --backgroundWhiteGray: #F7F8FC;
+    --textFont: 'Poppins', sans-serif;
+    --textFontVolkhov: 'Volkhov', sans-serif;
+    --h1Size: 64px;
+    --h2Size: 48px;
+    --h3Size: 24px;
+    --TitleSize: 24px;
+    --p1Size: 20px;
+    --p2Size: 18px;
+    --ContentSize: 16px;
+    --ParagraphSize: 16px;
+    --NavMenuSize: 16px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--textFont);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input:focus {
+    outline: none;
+}
